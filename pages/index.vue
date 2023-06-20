@@ -33,6 +33,7 @@
         if (coupon && coupon.redeemable) {
           coupon.redeemable = false;
           // Add your redeem logic here
+          alert(`Congratulation you won ${coupon.title}`)
           console.log(`Coupon ${coupon.title} redeemed!`);
         }
       }
